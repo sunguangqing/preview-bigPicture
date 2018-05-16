@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- 根据浏览器的屏幕大小自适应的展现合适的效果 -->
+    <meta name="applicable-device" content="pc,mobile"/>
+    <!-- 移动端 浏览器中页面将以原始大小显示，不允许缩放 -->
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <!--自动选择更好的浏览器-->
+    <meta name="renderer" content="webkit">
+    <title>商品详情页</title>
+    <link href="css/swiper-3.4.2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/commodity-details.css" />
+</head>
+<body>
+
+<!--商品详情部分-->
+<div class="clearfix w1200 shop-content">
+    <div class="fl shop-img">
+        <div class="img-box">
+            <div class="small">
+                <img src="images/img_01.jpg" />
+                <div class="mask"></div>
+            </div>
+            <div class="big">
+                <img src="images/img_01.jpg" />
+            </div>
+        </div>
+        <div class="showImg-swiper swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide position">
+                    <span class="pic active"><img src="images/img_01.jpg" /></span>
+                    <span class="pic"><img src="images/img_02.jpg" /></span>
+                    <span class="pic"><img src="images/img_03.jpg" /></span>
+                    <span class="pic"><img src="images/img_04.jpg" /></span>
+                    <span class="pic"><img src="images/img_05.jpg" /></span>
+                </div>
+                <div class="swiper-slide position">
+                    <span class="pic"><img src="images/img_06.jpg" /></span>
+                    <span class="pic"><img src="images/img_07.jpg" /></span>
+                    <span class="pic"><img src="images/img_08.jpg" /></span>
+                </div>
+            </div>
+            <div class="swiper-button-prev"><i></i></div>
+            <div class="swiper-button-next"><i></i></div>
+        </div>
+        <div class="clearfix share-wrap">
+            <div class="fl color-8">分享 <a href="#"><i></i></a><a href="#"><i></i></a><a href="#"><i></i></a></div>
+            <div class="fr shop-collect"><i class="active"></i>收藏商品（1254人气）</div>
+        </div>
+    </div>
+    <div class="fl shop-detail">
+        <h1 class="commodity-name">Apple iPhone 6 32GB 金色 移动联通电信4G手机+充电宝移动联通电信4G 手机+充电宝移动联通电信4G手机+充电宝</h1>
+        <p class="free-shipping color-ff5722">全场包邮</p>
+        <div class="price">
+            <p class="odd-price"><span class="caption">原　　价</span><span>¥ 9158.00</span></p>
+            <p class="new-price"><span class="caption">现　　价</span><span><i>¥ </i>1158.00~2500.00</span></p>
+        </div>
+        <p class="shop-freight"><span class="caption">运　　费</span><span class="color-8">江苏南京 送至</span><input type="text" class="city-btn select" value="安徽合肥蜀山区" /><span class="ml-40">快递费：￥10.00元</span> <span class="color-ff5722 ml-40">满88包邮</span></p>
+        <p class="border color-8"><span class="caption"></span>由 <a href="#">复鑫五金手机自营店</a> 销售和发货，并提供售后服务</p>
+        <p class="border color-8"><span class="caption"></span><span class="w-3">月销量 <i class="color-5">1000</i></span><span class="w-3">累计评价 <i class="color-5">1000</i></span><span class="w-3">送积分 <i class="color-ff5722">10分起</i></span></p>
+        <div class="detail-item clearfix"><span class="caption fl">内　　存</span>
+            <div class="fl"><span class="list">16G</span><span class="list active">32G</span><span class="list none">64G</span><span class="list">128G</span><span class="list none">256G</span></div>
+        </div>
+        <div class="detail-item detail-item-color clearfix"><span class="caption fl">颜　　色</span>
+            <div class="fl"><span class="list"><img src="images/img_04.jpg" /> 白色</span><span class="list none"><img src="images/img_05.jpg" /> 黑色</span><span class="list"><img src="images/img_01.jpg" /> 金色</span><span class="list"><img src="images/img_07.jpg" /> 红色</span></div>
+        </div>
+        <div class="detail-item border clearfix"><span class="caption fl">型　　号</span>
+            <div class="fl"><span class="list none">IPHONE 6</span><span class="list active">IPHONE 6s</span><span class="list">IPHONE 6Plus</span><span class="list">IPHONE 7</span></div>
+        </div>
+        <div class="color-8 clearfix"><span class="caption fl">数　　量</span>
+            <div class="number-box fl">
+                <span class="fl none add-btn">-</span><input class="text fl" value="1" type="text" /><span class="fr reduce-btn">+</span>
+            </div>
+            <span class="fl stock color-8">库存 <i>1000</i> 件</span>
+        </div>
+        <div class="clearfix purchase-group">
+            <span class="caption fl"></span>
+            <span class="sign-buy buy-btn">立即购买</span>
+            <span class="add-cart buy-btn"><i></i>加入购物车</span>
+        </div>
+    </div>
+    <div class="fl shop-hot text-center">
+        <p class="title"><span>看了又看</span></p>
+        <div class="hot-swiper swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide position">
+                    <div class="item">
+                        <a class="pic position text-overflow" href="#"><img src="images/img_01.jpg"><span>￥7.00</span></a>
+                        <a class="name text-overflow" href="#">智能手机智能手机智能手机智能手机智能手机智能手机</a>
+                    </div>
+                    <div class="item">
+                        <a class="pic position text-overflow" href="#"><img src="images/img_02.jpg"><span>￥7.00</span></a>
+                        <a class="name text-overflow" href="#">智能手机智能手机智能手机智能手机智能手机智能手机</a>
+                    </div>
+                    <div class="item">
+                        <a class="pic position text-overflow" href="#"><img src="images/img_06.jpg"><span>￥7.00</span></a>
+                        <a class="name text-overflow" href="#">智能手机智能手机智能手机智能手机智能手机智能手机</a>
+                    </div>
+                </div>
+                <div class="swiper-slide position">
+                    <div class="item">
+                        <a class="pic position text-overflow" href="#"><img src="images/img_04.jpg"><span>￥7.00</span></a>
+                        <a class="name text-overflow" href="#">智能手机智能手机智能手机智能手机智能手机智能手机</a>
+                    </div>
+                    <div class="item">
+                        <a class="pic position text-overflow" href="#"><img src="images/img_08.jpg"><span>￥7.00</span></a>
+                        <a class="name text-overflow" href="#">智能手机智能手机智能手机智能手机智能手机智能手机</a>
+                    </div>
+                    <div class="item">
+                        <a class="pic position text-overflow" href="#"><img src="images/img_05.jpg"><span>￥7.00</span></a>
+                        <a class="name text-overflow" href="#">智能手机智能手机智能手机智能手机智能手机智能手机</a>
+                    </div>
+                </div>
+                <div class="swiper-slide position">
+                    <div class="item">
+                        <a class="pic position text-overflow" href="#"><img src="images/img_07.jpg"><span>￥7.00</span></a>
+                        <a class="name text-overflow" href="#">智能手机智能手机智能手机智能手机智能手机智能手机</a>
+                    </div>
+                    <div class="item">
+                        <a class="pic position text-overflow" href="#"><img src="images/img_08.jpg"><span>￥7.00</span></a>
+                        <a class="name text-overflow" href="#">智能手机智能手机智能手机智能手机智能手机智能手机</a>
+                    </div>
+                    <div class="item">
+                        <a class="pic position text-overflow" href="#"><img src="images/img_02.jpg"><span>￥7.00</span></a>
+                        <a class="name text-overflow" href="#">智能手机智能手机智能手机智能手机智能手机智能手机</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"><i></i></div>
+            <div class="swiper-button-next"><i></i></div>
+        </div>
+    </div>
+</div>
+
+<!--商品介绍-->
+<div class="clearfix w1200 shop-introduce">
+    <div class="fl shop-introduce-left">
+        <div class="item good-navbox">
+            <p class="title">商品分类</p>
+            <ul class="good-nav">
+                <li><p class="open"><a href="#">一级分类</a></p>
+                    <ul class="good-nav_02">
+                        <li><a href="#">二级分类</a></li>
+                        <li><a href="#">二级分类</a></li>
+                        <li><a href="#">二级分类</a></li>
+                    </ul>
+                </li>
+                <li><p><a href="#">一级分类</a></p>
+                    <ul class="good-nav_02">
+                        <li><a href="#">二级分类</a></li>
+                        <li><a href="#">二级分类</a></li>
+                        <li><a href="#">二级分类</a></li>
+                    </ul>
+                </li>
+                <li><p><a href="#">一级分类</a></p>
+                    <ul class="good-nav_02">
+                        <li><a href="#">二级分类</a></li>
+                        <li><a href="#">二级分类</a></li>
+                        <li><a href="#">二级分类</a></li>
+                    </ul>
+                </li>
+                <li><p><a href="#">一级分类</a></p>
+                    <ul class="good-nav_02">
+                        <li><a href="#">二级分类</a></li>
+                        <li><a href="#">二级分类</a></li>
+                        <li><a href="#">二级分类</a></li>
+                    </ul>
+                </li>
+                <li><p><a href="#">一级分类</a></p>
+                    <ul class="good-nav_02">
+                        <li><a href="#">二级分类</a></li>
+                        <li><a href="#">二级分类</a></li>
+                        <li><a href="#">二级分类</a></li>
+                    </ul>
+                </li>
+                <li><p><a href="#">一级分类</a></p>
+                    <ul class="good-nav_02">
+                        <li><a href="#">二级分类</a></li>
+                        <li><a href="#">二级分类</a></li>
+                        <li><a href="#">二级分类</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="fr shop-introduce-right">
+        <div class="title">
+            <span class="active">商品详情</span><span>商品评价</span><span>售后服务</span>
+            <em class="fr color-ff5722">手机购买<i class="ewr"></i><i class="down"></i></em>
+        </div>
+        <div class="img-box"></div>
+    </div>
+</div>
+
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/swiper-4.2.2.min.js"></script>
+<script src="js/Popt.js"></script>
+<script src="js/cityJson.js"></script>
+<script src="js/citySet.js"></script>
+<script src="js/commodity-details.js"></script>
+</body>
+</html>
