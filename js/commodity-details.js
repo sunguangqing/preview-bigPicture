@@ -81,7 +81,7 @@ $(function () {
     })();
 
    // 商品分类
-    var leftA = $(".product_fenglei .good-nav p");
+    var leftA = $(".shop-introduce-left .good-nav p");
     leftA.each(function () {
         if($(this).siblings("ul").length === 0){
             $(this).css("background", "none");
