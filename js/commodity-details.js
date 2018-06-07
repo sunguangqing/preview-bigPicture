@@ -80,17 +80,25 @@ $(function () {
         });
     })();
 
-    // 商品分类
-    var leftA = $(".shop-introduce-left .good-nav p");
+   // 商品分类
+    var leftA = $(".product_fenglei .good-nav p");
     leftA.each(function () {
-        var className = $(this).prop("class");
-        if(className.indexOf("open") !== -1){
-            $(this).siblings().show();
+        if($(this).siblings("ul").length === 0){
+            $(this).css("background", "none");
+        }else{
+            var className = $(this).prop("class");
+            if(className.indexOf("open") !== -1){
+                $(this).siblings().show();
+            }else{
+                $(this).siblings().hide();
+            }
         }
     });
     leftA.on("click", function(){
-        $(this).parent().siblings().find("p").removeClass("open").siblings().slideUp();
-        $(this).toggleClass("open").siblings().slideToggle();
+        if($(this).siblings("ul").length !== 0){
+            $(this).parent().siblings().find("p").removeClass("open").siblings().slideUp();
+            $(this).toggleClass("open").siblings().slideToggle();
+        }
     });
 
     // 商品详情切换
